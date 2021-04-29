@@ -1,0 +1,182 @@
+fileFormatVersion: 2
+guid: 8be703c24c8d25641983c8ae53ea3377
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: _
+    100002: //RootNode
+    100004: Cross Guard
+    100006: Gem
+    100008: Gem Holder Struts Inner
+    100010: Gem Ring
+    100012: Handle
+    100014: HandleCollar
+    100016: HandleCollar.001
+    100018: Pommel
+    100020: Resonator
+    100022: ResonatorCore
+    100024: Spacer
+    100026: SwordBlade
+    100028: SwordCollar
+    100030: TrailAttachPoint
+    100032: _Braid
+    100034: _FullMesh
+    400000: _
+    400002: //RootNode
+    400004: Cross Guard
+    400006: Gem
+    400008: Gem Holder Struts Inner
+    400010: Gem Ring
+    400012: Handle
+    400014: HandleCollar
+    400016: HandleCollar.001
+    400018: Pommel
+    400020: Resonator
+    400022: ResonatorCore
+    400024: Spacer
+    400026: SwordBlade
+    400028: SwordCollar
+    400030: TrailAttachPoint
+    400032: _Braid
+    400034: _FullMesh
+    2100000: No Name
+    2300000: _
+    2300002: Cross Guard
+    2300004: Gem
+    2300006: Gem Holder Struts Inner
+    2300008: Gem Ring
+    2300010: Handle
+    2300012: HandleCollar
+    2300014: HandleCollar.001
+    2300016: Pommel
+    2300018: Resonator
+    2300020: ResonatorCore
+    2300022: Spacer
+    2300024: SwordBlade
+    2300026: SwordCollar
+    2300028: TrailAttachPoint
+    2300030: _Braid
+    2300032: //RootNode
+    2300034: _FullMesh
+    3300000: _
+    3300002: Cross Guard
+    3300004: Gem
+    3300006: Gem Holder Struts Inner
+    3300008: Gem Ring
+    3300010: Handle
+    3300012: HandleCollar
+    3300014: HandleCollar.001
+    3300016: Pommel
+    3300018: Resonator
+    3300020: ResonatorCore
+    3300022: Spacer
+    3300024: SwordBlade
+    3300026: SwordCollar
+    3300028: TrailAttachPoint
+    3300030: _Braid
+    3300032: //RootNode
+    3300034: _FullMesh
+    4300000: Gem
+    4300002: Gem Ring
+    4300004: Gem Holder Struts Inner
+    4300006: Cross Guard
+    4300008: Handle
+    4300010: SwordCollar
+    4300012: Pommel
+    4300014: HandleCollar
+    4300016: SwordBlade
+    4300018: Resonator
+    4300020: Spacer
+    4300022: ResonatorCore
+    4300024: HandleCollar.001
+    4300026: _
+    4300028: TrailAttachPoint
+    4300030: _Braid
+    4300032: _FullMesh
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: aetherium_assets
+  assetBundleVariant: 

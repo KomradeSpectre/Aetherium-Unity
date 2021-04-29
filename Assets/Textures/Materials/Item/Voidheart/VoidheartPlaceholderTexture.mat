@@ -1,0 +1,208 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: VoidheartPlaceholderTexture
+  m_Shader: {fileID: 4800000, guid: f675587607d0c504890015e5987f8dbe, type: 3}
+  m_ShaderKeywords: GEOM_TYPE_MESH _COMPOSITE_TYPE_DEBUG _GLOSSYREFLECTIONS_OFF _SPECULARHIGHLIGHTS_OFF
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 88af784bd39c78b409f53aeee44e6aa8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DissTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DistTex:
+        m_Texture: {fileID: 2800000, guid: 322301752af073349b2813bdf148c1c5, type: 3}
+        m_Scale: {x: 55, y: 55}
+        m_Offset: {x: 0, y: 0}
+    - _DistortionGuide:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DistortionTex:
+        m_Texture: {fileID: 2800000, guid: 322301752af073349b2813bdf148c1c5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FrostTex:
+        m_Texture: {fileID: 2800000, guid: 322301752af073349b2813bdf148c1c5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GradTex:
+        m_Texture: {fileID: 2800000, guid: 857d6960c831c0d41aa21329bc63dcad, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Hatch0:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Hatch1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Hatch2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Hatch3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Hatch4:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Hatch5:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 322301752af073349b2813bdf148c1c5, type: 3}
+        m_Scale: {x: 55, y: 55}
+        m_Offset: {x: 0, y: 0}
+    - _MaskTexture:
+        m_Texture: {fileID: 2800000, guid: 322301752af073349b2813bdf148c1c5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OutlineMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Adjust: 0.6
+    - _Angle: 0
+    - _BlobDepth: 2.9
+    - _BlobMoveSpeed: 6
+    - _BlobSaturation: 1
+    - _BlobScale: 3.16
+    - _BlobValue: 1
+    - _BumpScale: 1
+    - _COMPOSITE_TYPE: 4
+    - _Cull: 2
+    - _CullMode: 0
+    - _Cutoff: 0.5
+    - _Density: 0.6
+    - _DetailNormalMapScale: 1
+    - _DistortionAmount: 0
+    - _Division: 15
+    - _DstBlend: 0
+    - _Frequency: 55
+    - _FrostIntensity: 0.405
+    - _GlossMapScale: 1
+    - _Glossiness: 0.802
+    - _GlossyReflections: 0
+    - _Height: 1
+    - _Hoge: 0
+    - _Hoge2: 0
+    - _HueScale: 0
+    - _HueSpeed: 55
+    - _Interpolation: 1
+    - _Metallic: 1
+    - _MinPulseVal: 1
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _OutlineWidth: 0
+    - _Parallax: 0.02
+    - _PulseIntensity: 5
+    - _PulseRate: 2.54
+    - _RimAmplitude: 0
+    - _RimPower: 0.86
+    - _Roughness: 8
+    - _ScanDistance: 1
+    - _ScanWidth: 10
+    - _SmoothnessTextureChannel: 0
+    - _Space: 0.015
+    - _SpecularHighlights: 0
+    - _Speed: 55
+    - _SrcBlend: 1
+    - _Strength: 0.392
+    - _Threshold: 0.5
+    - _UVSec: 0
+    - _WindQuality: 0
+    - _Xcomp: 0
+    - _Ycomp: 0
+    - _ZWrite: 1
+    - _Zcomp: 0
+    - k1: 1
+    - k2: 2
+    - k3: 3
+    - k4: 4
+    - k5: 5
+    m_Colors:
+    - _BackColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Background: {r: 0.33938822, g: 0, b: 0.601, a: 1}
+    - _Color: {r: 1, g: 0, b: 0.84671545, a: 1}
+    - _DissolveColor: {r: 0, g: 1, b: 0, a: 1}
+    - _Drop1: {r: 0.49, g: 0.5, b: 0, a: 0}
+    - _Drop2: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - _Drop3: {r: 0.51, g: 0.5, b: 0, a: 0}
+    - _Emission: {r: 0.22019808, g: 0, b: 0.2594582, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Foreground: {r: 0.008516132, g: 0.0007741928, b: 0.024, a: 1}
+    - _GlowColor: {r: 1, g: 1, b: 1, a: 1}
+    - _HueVariation: {r: 1, g: 0.5, b: 0, a: 0.1}
+    - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Parameter: {r: 1, g: 55, b: 55, a: 55}
+    - _Params: {r: 0.1, g: 0, b: 0, a: 0}
+    - _Params1: {r: 1, g: 1, b: 0.8, a: 0}
+    - _Params2: {r: 1, g: 1, b: 1, a: 0}
+    - _PulseColor: {r: 0.4328358, g: 0, b: 0, a: 1}
+    - _Reflection: {r: 0, g: 0, b: 0, a: 0}
+    - _RimColor: {r: 0.7202797, g: 0, b: 1, a: 1}
+    - _ScanColor: {r: 1, g: 1, b: 1, a: 0}
+    - _SonarAddColor: {r: 0, g: 0, b: 0, a: 0}
+    - _SonarBaseColor: {r: 0.6117648, g: 0, b: 0.735849, a: 0}
+    - _SonarWaveColor: {r: 0.3962264, g: 0.072890714, b: 0.38354662, a: 0}
+    - _SonarWaveParams: {r: 15, g: 10, b: 1, a: 0}
+    - _SonarWaveVector: {r: 155, g: -155, b: 0, a: 500}

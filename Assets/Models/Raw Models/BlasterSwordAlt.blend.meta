@@ -1,0 +1,224 @@
+fileFormatVersion: 2
+guid: 5401d044eb84cb1459ea7fec93f4c241
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Cylinder
+    100004: Cylinder.001
+    100006: Cylinder.002
+    100008: Cylinder.003
+    100010: Cylinder.004
+    100012: Gem
+    100014: Gem Holder Struts Inner
+    100016: Gem Ring
+    100018: Cube
+    100020: Cylinder.005
+    100022: Cross Guard
+    100024: Handle
+    100026: HandleCollar
+    100028: Pommel
+    100030: Resonator
+    100032: Spacer
+    100034: SwordBlade
+    100036: SwordCollar
+    100038: ResonatorCore
+    100040: HandleCollar.001
+    100042: _
+    100044: Cross Guard Bottom
+    100046: Cross Guard Top
+    100048: SwordBladeUnder
+    100050: _FullMesh
+    100052: SwordBladeActivationMesh
+    400000: //RootNode
+    400002: Cylinder
+    400004: Cylinder.001
+    400006: Cylinder.002
+    400008: Cylinder.003
+    400010: Cylinder.004
+    400012: Gem
+    400014: Gem Holder Struts Inner
+    400016: Gem Ring
+    400018: Cube
+    400020: Cylinder.005
+    400022: Cross Guard
+    400024: Handle
+    400026: HandleCollar
+    400028: Pommel
+    400030: Resonator
+    400032: Spacer
+    400034: SwordBlade
+    400036: SwordCollar
+    400038: ResonatorCore
+    400040: HandleCollar.001
+    400042: _
+    400044: Cross Guard Bottom
+    400046: Cross Guard Top
+    400048: SwordBladeUnder
+    400050: _FullMesh
+    400052: SwordBladeActivationMesh
+    2100000: No Name
+    2300000: Cylinder
+    2300002: Cylinder.001
+    2300004: Cylinder.002
+    2300006: Cylinder.003
+    2300008: Cylinder.004
+    2300010: Gem
+    2300012: Gem Holder Struts Inner
+    2300014: Gem Ring
+    2300016: Cube
+    2300018: Cylinder.005
+    2300020: Cross Guard
+    2300022: Handle
+    2300024: HandleCollar
+    2300026: Pommel
+    2300028: Resonator
+    2300030: Spacer
+    2300032: SwordBlade
+    2300034: SwordCollar
+    2300036: ResonatorCore
+    2300038: HandleCollar.001
+    2300040: _
+    2300042: Cross Guard Bottom
+    2300044: Cross Guard Top
+    2300046: SwordBladeUnder
+    2300048: _FullMesh
+    2300050: SwordBladeActivationMesh
+    3300000: Cylinder
+    3300002: Cylinder.001
+    3300004: Cylinder.002
+    3300006: Cylinder.003
+    3300008: Cylinder.004
+    3300010: Gem
+    3300012: Gem Holder Struts Inner
+    3300014: Gem Ring
+    3300016: Cube
+    3300018: Cylinder.005
+    3300020: Cross Guard
+    3300022: Handle
+    3300024: HandleCollar
+    3300026: Pommel
+    3300028: Resonator
+    3300030: Spacer
+    3300032: SwordBlade
+    3300034: SwordCollar
+    3300036: ResonatorCore
+    3300038: HandleCollar.001
+    3300040: _
+    3300042: Cross Guard Bottom
+    3300044: Cross Guard Top
+    3300046: SwordBladeUnder
+    3300048: _FullMesh
+    3300050: SwordBladeActivationMesh
+    4300000: Gem
+    4300002: Gem Ring
+    4300004: Gem Holder Struts Inner
+    4300006: Cylinder
+    4300008: Cylinder.001
+    4300010: Cylinder.002
+    4300012: Cylinder.003
+    4300014: Cylinder.004
+    4300016: Cylinder.005
+    4300018: Cube
+    4300020: Cross Guard
+    4300022: Handle
+    4300024: SwordCollar
+    4300026: Pommel
+    4300028: HandleCollar
+    4300030: SwordBlade
+    4300032: Resonator
+    4300034: Spacer
+    4300036: ResonatorCore
+    4300038: HandleCollar.001
+    4300040: _
+    4300042: Cross Guard Top
+    4300044: SwordBladeUnder
+    4300046: Cross Guard Bottom
+    4300048: _FullMesh
+    4300050: SwordBladeActivationMesh
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: aetherium_assets
+  assetBundleVariant: 

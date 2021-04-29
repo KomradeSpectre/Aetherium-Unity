@@ -1,0 +1,175 @@
+fileFormatVersion: 2
+guid: 721ca27a4ff8ef44d9491f36879b2037
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Cross Guard
+    100004: Gem
+    100006: Gem Holder Struts Inner
+    100008: Gem Holder Struts Outer
+    100010: Gem Ring
+    100012: Pommel Gem
+    100014: Sword Connector
+    100016: Sword Core
+    100018: Sword Handle
+    100020: Sword Handle Caps
+    100022: Sword Inner
+    100024: Sword Outer
+    100026: Cube
+    100028: Sword End Ring
+    100030: _BlasterSwordFullMesh
+    100032: _
+    400000: //RootNode
+    400002: Cross Guard
+    400004: Gem
+    400006: Gem Holder Struts Inner
+    400008: Gem Holder Struts Outer
+    400010: Gem Ring
+    400012: Pommel Gem
+    400014: Sword Connector
+    400016: Sword Core
+    400018: Sword Handle
+    400020: Sword Handle Caps
+    400022: Sword Inner
+    400024: Sword Outer
+    400026: Cube
+    400028: Sword End Ring
+    400030: _BlasterSwordFullMesh
+    400032: _
+    2100000: No Name
+    2300000: Cross Guard
+    2300002: Gem
+    2300004: Gem Holder Struts Inner
+    2300006: Gem Holder Struts Outer
+    2300008: Gem Ring
+    2300010: Pommel Gem
+    2300012: Sword Connector
+    2300014: Sword Core
+    2300016: Sword Handle
+    2300018: Sword Handle Caps
+    2300020: Sword Inner
+    2300022: Sword Outer
+    2300024: Cube
+    2300026: Sword End Ring
+    2300028: _BlasterSwordFullMesh
+    2300030: _
+    3300000: Cross Guard
+    3300002: Gem
+    3300004: Gem Holder Struts Inner
+    3300006: Gem Holder Struts Outer
+    3300008: Gem Ring
+    3300010: Pommel Gem
+    3300012: Sword Connector
+    3300014: Sword Core
+    3300016: Sword Handle
+    3300018: Sword Handle Caps
+    3300020: Sword Inner
+    3300022: Sword Outer
+    3300024: Cube
+    3300026: Sword End Ring
+    3300028: _BlasterSwordFullMesh
+    3300030: _
+    4300000: Sword Outer
+    4300002: Sword Connector
+    4300004: Sword Inner
+    4300006: Gem
+    4300008: Gem Ring
+    4300010: Gem Holder Struts Inner
+    4300012: Gem Holder Struts Outer
+    4300014: Cross Guard
+    4300016: Sword Handle
+    4300018: Pommel Gem
+    4300020: Sword Handle Caps
+    4300022: Sword Core
+    4300024: Cube
+    4300026: Sword End Ring
+    4300028: _BlasterSwordFullMesh
+    4300030: _
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: aetherium_assets
+  assetBundleVariant: 
