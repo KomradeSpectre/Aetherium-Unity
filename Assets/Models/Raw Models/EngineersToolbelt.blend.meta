@@ -64,6 +64,7 @@ ModelImporter:
     100116: DuctTapeSeparatorClip
     100118: DuctTape.001
     100120: DuctTapeOuter
+    100122: _OutlinerMesh
     400000: BatteryBottom
     400002: BatteryCap
     400004: BatteryCylinder
@@ -125,6 +126,7 @@ ModelImporter:
     400116: DuctTapeSeparatorClip
     400118: DuctTape.001
     400120: DuctTapeOuter
+    400122: _OutlinerMesh
     2100000: No Name
     2300000: BatteryBottom
     2300002: BatteryCap
@@ -186,6 +188,7 @@ ModelImporter:
     2300114: DuctTapeSeparatorClip
     2300116: DuctTape.001
     2300118: DuctTapeOuter
+    2300120: _OutlinerMesh
     3300000: BatteryBottom
     3300002: BatteryCap
     3300004: BatteryCylinder
@@ -246,6 +249,7 @@ ModelImporter:
     3300114: DuctTapeSeparatorClip
     3300116: DuctTape.001
     3300118: DuctTapeOuter
+    3300120: _OutlinerMesh
     4300000: Belt
     4300002: Buckle
     4300004: Clasp
@@ -306,6 +310,7 @@ ModelImporter:
     4300114: DuctTapeSeparatorClip
     4300116: DuctTape.001
     4300118: DuctTapeOuter
+    4300120: _OutlinerMesh
     2186277476908879412: ImportLogs
   externalObjects: {}
   materials:

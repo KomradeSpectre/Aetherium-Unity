@@ -8,10 +8,10 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Distortion
-  m_Shader: {fileID: 4800000, guid: f05e06d55144e9e4e9c24afd639a4604, type: 3}
-  m_ShaderKeywords: USE_CLOUDS
+  m_Shader: {fileID: 4800000, guid: 746cd5a2fc5568b4aa7a0da36c9748d4, type: 3}
+  m_ShaderKeywords: TRIPLANAR USE_CLOUDS
   m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
+  m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
@@ -48,11 +48,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Cloud1Tex:
-        m_Texture: {fileID: 2800000, guid: 939f7c421b9f2a240bc99a67519e9137, type: 3}
+        m_Texture: {fileID: 2800000, guid: 17e6f42e88671184a835f754f6dd59c4, type: 3}
         m_Scale: {x: 2, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Cloud2Tex:
-        m_Texture: {fileID: 2800000, guid: 2bbe87261cdba6b45ba3c07eeff7e5dd, type: 3}
+        m_Texture: {fileID: 2800000, guid: 8e552af1d6f910745b28faabe43270ed, type: 3}
         m_Scale: {x: 0.1, y: 0.1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -128,7 +128,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 36643e303292e1f4f8811978144fd204, type: 3}
+        m_Texture: {fileID: 2800000, guid: 04d27cf1f833a514f8898c3f6541e6f9, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Metallic:
@@ -152,7 +152,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalTex:
-        m_Texture: {fileID: 2800000, guid: 3070d6ac6fcc95044976e2ea595fb3d4, type: 3}
+        m_Texture: {fileID: 2800000, guid: 680263529a2463747a583a3052aeb904, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Normals:
@@ -176,7 +176,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _RemapTex:
-        m_Texture: {fileID: 2800000, guid: b4da17ebb24af4c4f9051e6721052916, type: 3}
+        m_Texture: {fileID: 2800000, guid: 4f5b8940dfc898749823c7fc022976f5, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _RockAlbedo:
@@ -205,6 +205,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _RubberSpecular:
         m_Texture: {fileID: 2800000, guid: 0688235f1fee46b4581bcc1cf189cf3a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ScopeMap:
+        m_Texture: {fileID: 2800000, guid: 62e829f91741d75498a00f5c0601ac9a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SliceAlphaTex:
@@ -242,13 +246,13 @@ Material:
     m_Floats:
     - _ASEOutlineWidth: 0.02
     - _AlphaBias: 0
-    - _AlphaBoost: 0.77
+    - _AlphaBoost: 0.13
     - _AlphaPower: 10
     - _BaseCellOffset: 0
     - _BaseCellSharpness: 0.01
     - _BlueChannelBias: 0
     - _BlueChannelSmoothness: 0
-    - _Boost: 0.55
+    - _Boost: 5
     - _BrickHeight: 0
     - _BrickTiling: 0
     - _BumpScale: 1
@@ -266,10 +270,10 @@ Material:
     - _DepthOffset: 0
     - _DetailNormalMapScale: 1
     - _DisableRemapOn: 0
-    - _DistortionStrength: 0.1
+    - _DistortionStrength: 0.156
     - _DitherOn: 0
     - _DstBlend: 0
-    - _DstBlendFloat: 1
+    - _DstBlendFloat: 10
     - _EliteBrightnessMax: 1
     - _EliteBrightnessMin: 0
     - _EliteIndex: 0
@@ -281,6 +285,7 @@ Material:
     - _FadeBias: 0
     - _FadeCloseDistance: 0.5
     - _FadeCloseOn: 0
+    - _FadeFromVertexColorsOn: 0
     - _Falloff: 0.02
     - _FlowEmissionStrength: 1
     - _FlowHeightBias: 0
@@ -309,7 +314,7 @@ Material:
     - _IndirectDiffuseContribution: 1
     - _IndirectSpecularContribution: 1
     - _InternalSimpleBlendMode: 0
-    - _IntersectionStrength: 20
+    - _IntersectionStrength: 1.82
     - _InvFade: 0
     - _LimbPrimeMask: 1
     - _LimbRemovalOn: 0
@@ -333,10 +338,10 @@ Material:
     - _RampInfo: 0
     - _Refraction: 10
     - _RimOffset: 0.24
-    - _RimPower: 0.1
-    - _RimStrength: 0.36
+    - _RimPower: 2.25
+    - _RimStrength: 0.04
     - _RoughScale: 0.5
-    - _Scale: 0.4247461
+    - _Scale: 4.78
     - _ShadowContribution: 0.5
     - _Size: 5
     - _SkyboxOnly: 0
@@ -347,7 +352,7 @@ Material:
     - _Smoothness: 0
     - _SmoothnessTextureChannel: 0
     - _SnowAmount: 0.13
-    - _SoftPower: 1.7
+    - _SoftPower: 1.8
     - _SpecularExponent: 1
     - _SpecularHighlights: 1
     - _SpecularStrength: 0
@@ -361,7 +366,8 @@ Material:
     - _TessMin: 10
     - _TessPhongStrength: 0.5
     - _TessValue: 4
-    - _TriplanarOn: 0
+    - _TintStrength: 0.516
+    - _TriplanarOn: 1
     - _UVSec: 0
     - _UseUV1On: 0
     - _VertexAlphaOn: 0
@@ -380,7 +386,7 @@ Material:
     - _BaseTint: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Colour: {r: 1, g: 0, b: 1, a: 1}
-    - _CutoffScroll: {r: 1, g: 1, b: 0, a: 4}
+    - _CutoffScroll: {r: 1, g: 4, b: 0, a: 0}
     - _EmColor: {r: 1, g: 0, b: 0, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _FlashColor: {r: 0, g: 0, b: 0, a: 1}

@@ -17,7 +17,7 @@ Shader "Fake RoR/Hopoo Games/FX/HGCloud Intersection Remap" {
 		_IntersectionStrength ("Intersection Strength", Range(0, 20)) = 0
 		[MaterialEnum(Off,0,Front,1,Back,2)] _Cull ("Cull", Float) = 0
 		[PerRendererData] _ExternalAlpha ("External Alpha", Range(0, 1)) = 1
-		[Toggle(IGNORE_VERTEX_COLORS)] _VertexColorsOn ("Ignore Vertex Colors", Float) = 0
+		[Toggle(FADE_FROM_VERTEX_COLORS)] _FadeFromVertexColorsOn ("Fade Alpha from Vertex Color Luminance", Float) = 0
 		[Toggle(TRIPLANAR)] _TriplanarOn ("Enable Triplanar Projections for Clouds", Float) = 0
 	}
 	Fallback "Diffuse"

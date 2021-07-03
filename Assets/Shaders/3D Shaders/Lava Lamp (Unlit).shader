@@ -1,6 +1,6 @@
 ﻿Shader "Maki/Lava Lamp (Unlit)" {
 	Properties {
-		_BlobScale ("Blob Scale", Range (0.1, 8)) = 1
+		[PerRendererData]_BlobScale ("Blob Scale", Range (0.1, 8)) = 1
 		_BlobDepth ("Blob Depth", Range (2, 16)) = 4
 		_BlobSaturation ("Blob Saturation", Range(0,1)) = 0.8
 		_BlobValue ("Blob Value", Range(0,1)) = 0.4
