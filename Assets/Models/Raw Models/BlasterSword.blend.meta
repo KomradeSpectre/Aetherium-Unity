@@ -20,6 +20,18 @@ ModelImporter:
     100028: Sword End Ring
     100030: _BlasterSwordFullMesh
     100032: _
+    100034: _FullMesh
+    100036: Sword Handle Caps.001
+    100038: SwordBlade
+    100040: SwordBladeCore
+    100042: Cylinder
+    100044: Cylinder.001
+    100046: Empty
+    100048: Blade
+    100050: Crossguard
+    100052: Handle
+    100054: Pommel
+    100056: PowerGem
     400000: //RootNode
     400002: Cross Guard
     400004: Gem
@@ -37,7 +49,20 @@ ModelImporter:
     400028: Sword End Ring
     400030: _BlasterSwordFullMesh
     400032: _
+    400034: _FullMesh
+    400036: Sword Handle Caps.001
+    400038: SwordBlade
+    400040: SwordBladeCore
+    400042: Cylinder
+    400044: Cylinder.001
+    400046: Empty
+    400048: Blade
+    400050: Crossguard
+    400052: Handle
+    400054: Pommel
+    400056: PowerGem
     2100000: No Name
+    2100002: Material
     2300000: Cross Guard
     2300002: Gem
     2300004: Gem Holder Struts Inner
@@ -54,6 +79,17 @@ ModelImporter:
     2300026: Sword End Ring
     2300028: _BlasterSwordFullMesh
     2300030: _
+    2300032: _FullMesh
+    2300034: Sword Handle Caps.001
+    2300036: SwordBlade
+    2300038: SwordBladeCore
+    2300040: Cylinder
+    2300042: Cylinder.001
+    2300044: Blade
+    2300046: Crossguard
+    2300048: Handle
+    2300050: Pommel
+    2300052: PowerGem
     3300000: Cross Guard
     3300002: Gem
     3300004: Gem Holder Struts Inner
@@ -70,6 +106,17 @@ ModelImporter:
     3300026: Sword End Ring
     3300028: _BlasterSwordFullMesh
     3300030: _
+    3300032: _FullMesh
+    3300034: Sword Handle Caps.001
+    3300036: SwordBlade
+    3300038: SwordBladeCore
+    3300040: Cylinder
+    3300042: Cylinder.001
+    3300044: Blade
+    3300046: Crossguard
+    3300048: Handle
+    3300050: Pommel
+    3300052: PowerGem
     4300000: Sword Outer
     4300002: Sword Connector
     4300004: Sword Inner
@@ -86,6 +133,17 @@ ModelImporter:
     4300026: Sword End Ring
     4300028: _BlasterSwordFullMesh
     4300030: _
+    4300032: SwordBlade
+    4300034: SwordBladeCore
+    4300036: Sword Handle Caps.001
+    4300038: _FullMesh
+    4300040: Cylinder
+    4300042: Cylinder.001
+    4300044: Blade
+    4300046: Crossguard
+    4300048: Handle
+    4300050: PowerGem
+    4300052: Pommel
     2186277476908879412: ImportLogs
   externalObjects: {}
   materials:

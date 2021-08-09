@@ -58,6 +58,7 @@ ModelImporter:
     400050: _FullMesh
     400052: SwordBladeActivationMesh
     2100000: No Name
+    2100002: Material
     2300000: Cylinder
     2300002: Cylinder.001
     2300004: Cylinder.002

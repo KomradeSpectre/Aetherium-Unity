@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: BlasterSwordBladeOuter
+  m_Name: BlasterSwordBladeOuterAlt
   m_Shader: {fileID: 4800000, guid: cbd3e34258834974483a8ffcf3a6bbfd, type: 3}
   m_ShaderKeywords: FRESNEL_EMISSION _NORMALMAP _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
   m_LightmapFlags: 4

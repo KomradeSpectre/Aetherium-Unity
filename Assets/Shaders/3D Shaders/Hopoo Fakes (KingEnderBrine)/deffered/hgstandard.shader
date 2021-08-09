@@ -1,7 +1,7 @@
 Shader "Fake RoR/Hopoo Games/Deferred/HGStandard" {
 	Properties {
 		[Header(Default)] [Toggle(CUTOUT)] _EnableCutout ("Cutout", Float) = 0
-		_Color ("Main Color", Vector) = (0.5,0.5,0.5,1)
+		_Color ("Main Color", Color) = (0.5,0.5,0.5,1)
 		_MainTex ("Base (RGB) Specular Scale (A)", 2D) = "white" {}
 		_NormalStrength ("Normal Strength", Range(0, 5)) = 1
 		_NormalTex ("Normal Map", 2D) = "bump" {}

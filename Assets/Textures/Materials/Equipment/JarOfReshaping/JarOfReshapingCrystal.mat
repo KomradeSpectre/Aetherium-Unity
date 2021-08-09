@@ -68,7 +68,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _FresnelRamp:
-        m_Texture: {fileID: 2800000, guid: a32f499b01fc0104c92e365daf20e30b, type: 3}
+        m_Texture: {fileID: 2800000, guid: ccb9d9676f9d48641a342fdeee1b976c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _GreenChannelNormalTex:
@@ -89,7 +89,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _NormalTex:
         m_Texture: {fileID: 2800000, guid: 9e3dde78bcd82f047ba45d684b0e10a5, type: 3}
-        m_Scale: {x: 2, y: 2}
+        m_Scale: {x: 3, y: 3}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
         m_Texture: {fileID: 0}
@@ -144,9 +144,9 @@ Material:
     - _FlowTextureScaleFactor: 1
     - _FlowmapOn: 0
     - _ForceSpecOn: 1
-    - _FresnelBoost: 5.186796
+    - _FresnelBoost: 11
     - _FresnelInner: 0.7
-    - _FresnelPower: 0.3590981
+    - _FresnelPower: 0.5193235
     - _GlossMapScale: 1
     - _Glossiness: 0.83
     - _GlossyReflections: 1
@@ -187,7 +187,7 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0.741, g: 0.858, b: 0.96, a: 1}
+    - _Color: {r: 0.36850303, g: 0.619944, b: 0.8584906, a: 1}
     - _EmColor: {r: 0, g: 0, b: 0, a: 1}
     - _EmissionColor: {r: 0.43965825, g: 0.5119846, b: 0.9811321, a: 1}
     - _FlashColor: {r: 0, g: 0, b: 0, a: 1}
