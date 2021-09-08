@@ -8,11 +8,13 @@ ModelImporter:
     100004: Handles
     100006: Metal
     100008: //RootNode
+    100010: _FullMesh
     400000: Center
     400002: Energy
     400004: Handles
     400006: Metal
     400008: //RootNode
+    400010: _FullMesh
     2100000: Material.003
     2100002: No Name
     2100004: Material
@@ -21,14 +23,17 @@ ModelImporter:
     2300002: Energy
     2300004: Handles
     2300006: Metal
+    2300008: _FullMesh
     3300000: Center
     3300002: Energy
     3300004: Handles
     3300006: Metal
+    3300008: _FullMesh
     4300000: Metal
     4300002: Energy
     4300004: Center
     4300006: Handles
+    4300008: _FullMesh
   externalObjects: {}
   materials:
     importMaterials: 1

@@ -8,8 +8,8 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: JarOfReshapingEffect
-  m_Shader: {fileID: 4800000, guid: cbd3e34258834974483a8ffcf3a6bbfd, type: 3}
-  m_ShaderKeywords: FRESNEL_EMISSION USE_CLOUDS _EMISSION _NORMALMAP
+  m_Shader: {fileID: 4800000, guid: 868cd0b754539a74a8e345ebaa04a576, type: 3}
+  m_ShaderKeywords: DISTORTMAIN_ON FRESNEL_EMISSION USE_CLOUDS _EMISSION _NORMALMAP
   m_LightmapFlags: 1
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -28,7 +28,15 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: 38ebc671522560c4b9fb07a402b0b5df, type: 3}
+        m_Texture: {fileID: 2800000, guid: a386c57a6b5b7734eba8fd49f8256fb2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpRamp:
+        m_Texture: {fileID: 2800000, guid: a32f499b01fc0104c92e365daf20e30b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpTex:
+        m_Texture: {fileID: 2800000, guid: 9e3dde78bcd82f047ba45d684b0e10a5, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Cloud1Tex:
@@ -39,8 +47,16 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _CosmicFieldTex:
+        m_Texture: {fileID: 2800000, guid: 17e6f42e88671184a835f754f6dd59c4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Cubemap:
+        m_Texture: {fileID: 8900000, guid: a299e8a9b0640484d8fc6972bb83ea33, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _DerivHeightMap:
-        m_Texture: {fileID: 2800000, guid: 5853dc1d90c918949901a560bd2bc900, type: 3}
+        m_Texture: {fileID: 2800000, guid: f2ee58db487fadc41ae01f714da2fdc3, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -52,11 +68,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailNormalMap:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 86a0e8677eeb1274db8691ab02bd817a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DistortTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 96510d85b185cc344b204f2ef5c63135, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmTex:
@@ -80,7 +96,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _FlowMap:
-        m_Texture: {fileID: 2800000, guid: e2ad7f515ff9ffd429548315856a5fbc, type: 3}
+        m_Texture: {fileID: 2800000, guid: 66f2358cbc4d45a4489042e2237871c7, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _FlowTex:
@@ -95,6 +111,10 @@ Material:
         m_Texture: {fileID: 2800000, guid: ccb9d9676f9d48641a342fdeee1b976c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _FresnelTex:
+        m_Texture: {fileID: 2800000, guid: 2bbe87261cdba6b45ba3c07eeff7e5dd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _GreenChannelNormalTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -104,11 +124,19 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: bec880d36a2f30645b7555ec782aad57, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicSmoothnessTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise:
+        m_Texture: {fileID: 2800000, guid: 86a0e8677eeb1274db8691ab02bd817a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NoiseTex:
@@ -124,18 +152,46 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
-        m_Texture: {fileID: 2800000, guid: 5853dc1d90c918949901a560bd2bc900, type: 3}
+        m_Texture: {fileID: 2800000, guid: 0970aaf31bb18d54396bdffc01bed983, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _PrintRamp:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Ramp:
+        m_Texture: {fileID: 2800000, guid: fb589a780d345be4ab4b242238274305, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RampTex:
+        m_Texture: {fileID: 2800000, guid: a32f499b01fc0104c92e365daf20e30b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ReflectTex:
+        m_Texture: {fileID: 8900000, guid: 25793ebbbd111a7011005aba44295342, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RefractTex:
+        m_Texture: {fileID: 8900000, guid: e8185d4f7cad44674b599ab066f93fcb, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _RemapTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _RenderTex:
+        m_Texture: {fileID: 2800000, guid: 03acb53abdeb6f841bbec62a369c2e26, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ReticleTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _ShapeTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SkyCube:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -147,14 +203,25 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _StarMapTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Floats:
-    - DISTORTMAIN: 0
+    - DISTORTMAIN: 1
     - PixelSnap: 0
     - SHAPE: 0
     - SHAPEX: 0
+    - _AbsorbIntensity: 1
+    - _AccretionDiskThickness: 1
     - _AlphaBias: 0
     - _AlphaBoost: 1
     - _Amount: 0.6
+    - _BlobDepth: 6.59
+    - _BlobMoveSpeed: 1
+    - _BlobSaturation: 0
+    - _BlobScale: 1
+    - _BlobValue: 0.311
     - _BlueChannelBias: 0
     - _BlueChannelSmoothness: 0
     - _Boost: 1
@@ -162,15 +229,22 @@ Material:
     - _CalcTextureAlphaOn: 0
     - _CloudOffsetOn: 0
     - _CloudsOn: 1
+    - _ColorAdd: 0.514
+    - _ColorMultiply: 1.29
     - _ColorsOn: 0
+    - _CosmicFieldGlow: 2
+    - _CosmicFieldSize: 4
+    - _CosmicFieldXSpeed: 0
+    - _CosmicFieldYSpeed: -0.08
     - _Cull: 2
-    - _Cutoff: 0.5
+    - _Cutoff: 0.715
     - _DecalLayer: 0
     - _Depth: 0.2
     - _DepthOffset: 0
     - _DetailNormalMapScale: 1
     - _DisableRemapOn: 0
     - _Distort: 0.2
+    - _DistortStrength: 1
     - _Distortion: 0.2
     - _DistortionStrength: 0.1
     - _DitherOn: 0
@@ -178,6 +252,8 @@ Material:
     - _DynamicEmissionLM: 0
     - _Edge: 8
     - _EdgeBlur: 0.5
+    - _EdgeDistortion: 2.31
+    - _EdgeThickness: 1
     - _EliteBrightnessMax: 1
     - _EliteBrightnessMin: 0
     - _EliteIndex: 0
@@ -198,25 +274,32 @@ Material:
     - _FlowNormalStrength: 1
     - _FlowOffset: 0
     - _FlowSpeed: 1
-    - _FlowStrength: 0.2
+    - _FlowStrength: 2
     - _FlowTextureScaleFactor: 1
     - _FlowmapOn: 0
     - _ForceSpecOn: 0
     - _FresnelBoost: 11
+    - _FresnelGlow: 100
     - _FresnelOn: 0
     - _FresnelPower: 0.5193235
+    - _FresnelRadius: 0.6
+    - _FresnelXSpeed: 0
+    - _FresnelYSpeed: -0.03
     - _GlossMapScale: 1
-    - _Glossiness: 0
+    - _Glossiness: 0.404
     - _GlossyReflections: 1
     - _GreenChannelBias: 0
     - _GreenChannelSmoothness: 0
     - _Hard: 30
     - _Height: 0.1
-    - _HeightScale: 0.25
-    - _HeightScaleModulated: 0.75
+    - _HeightScale: 1
+    - _HeightScaleModulated: 0
+    - _HueScale: 1
+    - _HueSpeed: 1
+    - _IOR: 2.79
     - _InternalSimpleBlendMode: 0
     - _InvFade: 0.1
-    - _Iterations: 5
+    - _Iterations: 10
     - _LimbPrimeMask: 1
     - _LimbRemovalOn: 0
     - _MainScroll: 1
@@ -226,7 +309,8 @@ Material:
     - _OcclusionStrength: 1
     - _Offset: 1
     - _OffsetAmount: 0
-    - _OffsetScale: 10
+    - _OffsetScale: 5
+    - _OverallCosmicGlow: 0.2
     - _Parallax: 0.02
     - _PrintBias: 0
     - _PrintBoost: 1
@@ -238,20 +322,24 @@ Material:
     - _RimPower: 0
     - _Scale: 0.3
     - _ScaleDist: 0.5
+    - _SchwarzschildRadius: 44
     - _ScrollX: 1
     - _ScrollXSpeed: 0
     - _ScrollY: 1
     - _ScrollYSpeed: 0
+    - _Size: 1
     - _SkyboxOnly: 0
     - _SliceAlphaDepth: 0.1
     - _SliceBandHeight: 1
     - _SliceHeight: 5
     - _Smoothness: 1
     - _SmoothnessTextureChannel: 0
+    - _SpaceDistortion: 4
+    - _Specular: 0.653
     - _SpecularExponent: 1
     - _SpecularHighlights: 1
     - _SpecularStrength: 0
-    - _Speed: 0.5
+    - _Speed: 1
     - _SpeedDistortX: 0.2
     - _SpeedDistortY: 0.2
     - _SpeedMainX: 0.4
@@ -259,18 +347,25 @@ Material:
     - _SplatmapOn: 0
     - _SplatmapTileScale: 1
     - _SrcBlend: 1
+    - _StarMapGlow: 4
+    - _StarMapSize: 1
+    - _StarMapXSpeed: 0
+    - _StarMapYSpeed: 0
     - _Strength: 2
     - _StrengthTop: 3
-    - _Tiling: 4
+    - _Tiling: 1
     - _TopBlur: 0.1
-    - _UJump: 0.25
+    - _TraceCount: 1
+    - _UJump: 0
     - _UVSec: 0
     - _UseUV1On: 0
-    - _VJump: 0.25
+    - _VJump: 0
+    - _Value: 0
     - _VertexAlphaOn: 0
     - _VertexColorOn: 0
     - _VertexDistortion: 0.3
     - _VertexOffsetOn: 0
+    - _Vignette: 0.5
     - _WobbleX: 0
     - _WobbleZ: 0
     - _XDistort: 1
@@ -280,21 +375,29 @@ Material:
     - _ZTest: 4
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0.36850303, g: 0.619944, b: 0.8584906, a: 1}
+    - _AccretionDiskColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Background: {r: 0, g: 0, b: 0, a: 1}
+    - _BlackHoleColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Color: {r: 0, g: 0.36692566, b: 0.5377358, a: 1}
     - _Color2: {r: 0.6, g: 0.4, b: 0.1, a: 1}
     - _Color3: {r: 1, g: 1, b: 0, a: 1}
     - _ColorA: {r: 1, g: 1, b: 1, a: 1}
     - _ColorB: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorInside: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorOutside: {r: 1, g: 1, b: 1, a: 1}
     - _CutoffScroll: {r: 0, g: 0, b: 0, a: 0}
     - _EdgeC: {r: 1, g: 0.5, b: 0.2, a: 1}
     - _EmColor: {r: 0, g: 0, b: 0, a: 1}
     - _EmissionColor: {r: 0, g: 0.0940752, b: 1, a: 1}
     - _FlashColor: {r: 0, g: 0, b: 0, a: 1}
     - _FoamColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Foreground: {r: 0, g: 0.4227643, b: 1, a: 1}
+    - _FresnelColor1: {r: 0.5490196, g: 0.3294118, b: 1, a: 0}
+    - _FresnelColor2: {r: 0.1333333, g: 0.07843138, b: 0.5529412, a: 0}
     - _RimColor: {r: 1, g: 1, b: 1, a: 1}
     - _TextureColor: {r: 1, g: 1, b: 1, a: 1}
     - _Tint: {r: 1, g: 1, b: 1, a: 1}
     - _TintA: {r: 1, g: 1, b: 1, a: 1}
     - _TintB: {r: 1, g: 1, b: 1, a: 1}
-    - _TintColor: {r: 1, g: 1, b: 1, a: 1}
+    - _TintColor: {r: 1, g: 0, b: 0, a: 1}
     - _TopColor: {r: 1, g: 1, b: 1, a: 1}
