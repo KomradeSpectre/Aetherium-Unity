@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: JarOfReshapingEffect
-  m_Shader: {fileID: 4800000, guid: 868cd0b754539a74a8e345ebaa04a576, type: 3}
+  m_Shader: {fileID: 4800000, guid: 2e72d6de6c09d490493a2b3ee9b31e80, type: 3}
   m_ShaderKeywords: DISTORTMAIN_ON FRESNEL_EMISSION USE_CLOUDS _EMISSION _NORMALMAP
   m_LightmapFlags: 1
   m_EnableInstancingVariants: 0
@@ -56,7 +56,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DerivHeightMap:
-        m_Texture: {fileID: 2800000, guid: f2ee58db487fadc41ae01f714da2fdc3, type: 3}
+        m_Texture: {fileID: 2800000, guid: 86a0e8677eeb1274db8691ab02bd817a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -124,7 +124,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: bec880d36a2f30645b7555ec782aad57, type: 3}
+        m_Texture: {fileID: 2800000, guid: 7470ce5752e8b4f4197d55449e7c3a89, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -274,7 +274,7 @@ Material:
     - _FlowNormalStrength: 1
     - _FlowOffset: 0
     - _FlowSpeed: 1
-    - _FlowStrength: 2
+    - _FlowStrength: 1
     - _FlowTextureScaleFactor: 1
     - _FlowmapOn: 0
     - _ForceSpecOn: 0
@@ -286,13 +286,13 @@ Material:
     - _FresnelXSpeed: 0
     - _FresnelYSpeed: -0.03
     - _GlossMapScale: 1
-    - _Glossiness: 0.404
+    - _Glossiness: 0
     - _GlossyReflections: 1
     - _GreenChannelBias: 0
     - _GreenChannelSmoothness: 0
     - _Hard: 30
     - _Height: 0.1
-    - _HeightScale: 1
+    - _HeightScale: 4
     - _HeightScaleModulated: 0
     - _HueScale: 1
     - _HueSpeed: 1
@@ -339,7 +339,7 @@ Material:
     - _SpecularExponent: 1
     - _SpecularHighlights: 1
     - _SpecularStrength: 0
-    - _Speed: 1
+    - _Speed: 0.5
     - _SpeedDistortX: 0.2
     - _SpeedDistortY: 0.2
     - _SpeedMainX: 0.4
@@ -353,7 +353,7 @@ Material:
     - _StarMapYSpeed: 0
     - _Strength: 2
     - _StrengthTop: 3
-    - _Tiling: 1
+    - _Tiling: 10
     - _TopBlur: 0.1
     - _TraceCount: 1
     - _UJump: 0
@@ -378,7 +378,7 @@ Material:
     - _AccretionDiskColor: {r: 1, g: 1, b: 1, a: 1}
     - _Background: {r: 0, g: 0, b: 0, a: 1}
     - _BlackHoleColor: {r: 0, g: 0, b: 0, a: 1}
-    - _Color: {r: 0, g: 0.36692566, b: 0.5377358, a: 1}
+    - _Color: {r: 0.3443396, g: 0.7652575, b: 1, a: 1}
     - _Color2: {r: 0.6, g: 0.4, b: 0.1, a: 1}
     - _Color3: {r: 1, g: 1, b: 0, a: 1}
     - _ColorA: {r: 1, g: 1, b: 1, a: 1}

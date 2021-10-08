@@ -16,6 +16,7 @@ ModelImporter:
     100020: GearTapered 3
     100022: GearTinyToothed
     100024: //RootNode
+    100026: _mdlZenithAccelerator
     400000: Axle
     400002: GearLargeToothed
     400004: GearLargeToothed 2
@@ -29,6 +30,7 @@ ModelImporter:
     400020: GearTapered 3
     400022: GearTinyToothed
     400024: //RootNode
+    400026: _mdlZenithAccelerator
     2100000: Material
     2300000: Axle
     2300002: GearLargeToothed
@@ -42,6 +44,7 @@ ModelImporter:
     2300018: GearTapered 2
     2300020: GearTapered 3
     2300022: GearTinyToothed
+    2300024: _mdlZenithAccelerator
     3300000: Axle
     3300002: GearLargeToothed
     3300004: GearLargeToothed 2
@@ -54,6 +57,7 @@ ModelImporter:
     3300018: GearTapered 2
     3300020: GearTapered 3
     3300022: GearTinyToothed
+    3300024: _mdlZenithAccelerator
     4300000: GearScrewSmall
     4300002: GearSmall
     4300004: GearTapered
@@ -66,6 +70,7 @@ ModelImporter:
     4300018: GearSmall 2
     4300020: GearLargeToothed 2
     4300022: Axle
+    4300024: _mdlZenithAccelerator
   externalObjects: {}
   materials:
     importMaterials: 1

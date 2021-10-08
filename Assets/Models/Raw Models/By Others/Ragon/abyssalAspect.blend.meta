@@ -1,0 +1,147 @@
+fileFormatVersion: 2
+guid: 5a0c768bad886154cba1d9b3931f9a5d
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Antenna
+    100004: Antenna.003
+    100006: Antenna.004
+    100008: Antenna.005
+    100010: Antenna.006
+    100012: Antenna.007
+    100014: Antenna.008
+    100016: Antenna.009
+    100018: Antenna.010
+    100020: Antenna.011
+    100022: Antenna.012
+    100024: Antenna.013
+    100026: Antenna.014
+    100028: Antenna.015
+    100030: Antenna.015_end
+    100032: Antenna.016
+    100034: Antenna.016_end
+    100036: Antenna.017
+    100038: Antenna.018
+    100040: Antenna.019
+    100042: Antenna.019_end
+    100044: Antenna.020
+    100046: Antenna.020_end
+    100048: Armature
+    100050: Cylinder
+    400000: //RootNode
+    400002: Antenna
+    400004: Antenna.003
+    400006: Antenna.004
+    400008: Antenna.005
+    400010: Antenna.006
+    400012: Antenna.007
+    400014: Antenna.008
+    400016: Antenna.009
+    400018: Antenna.010
+    400020: Antenna.011
+    400022: Antenna.012
+    400024: Antenna.013
+    400026: Antenna.014
+    400028: Antenna.015
+    400030: Antenna.015_end
+    400032: Antenna.016
+    400034: Antenna.016_end
+    400036: Antenna.017
+    400038: Antenna.018
+    400040: Antenna.019
+    400042: Antenna.019_end
+    400044: Antenna.020
+    400046: Antenna.020_end
+    400048: Armature
+    400050: Cylinder
+    2100000: Material
+    4300000: Cylinder
+    9500000: //RootNode
+    13700000: Cylinder
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: aetherium_assets
+  assetBundleVariant: 

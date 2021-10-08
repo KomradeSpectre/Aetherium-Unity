@@ -119,6 +119,7 @@ Material:
     - _Edge: 1
     - _EmissionLM: 0
     - _ExternalAlpha: 1
+    - _FadeFromVertexColorsOn: 0
     - _FadeLength: 0.015
     - _GlossMapScale: 1
     - _Glossiness: 0.5
@@ -150,7 +151,7 @@ Material:
     - _SpecularHighlights: 1
     - _SquashAmount: 1
     - _SrcBlend: 1
-    - _SrcBlendFloat: 5
+    - _SrcBlendFloat: 1
     - _TriplanarOn: 0
     - _UVSec: 0
     - _VertexColorsOn: 0

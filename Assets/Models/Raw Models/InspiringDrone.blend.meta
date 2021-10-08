@@ -72,6 +72,34 @@ ModelImporter:
     100132: WristR_UpperFinger2_Joint
     100134: WristR_UpperThumb
     100136: WristR_UpperThumb_Joint
+    100138: Armature
+    100140: Chest 1
+    100142: Hand.L
+    100144: Hand.R
+    100146: LowerArm.L
+    100148: LowerArm.R
+    100150: Neck 1
+    100152: Neck_end
+    100154: PinkyLower.L
+    100156: PinkyLower.L_end
+    100158: PinkyLower.R
+    100160: PinkyLower.R_end
+    100162: PinkyUpper.L
+    100164: PinkyUpper.R
+    100166: PointerLower.L
+    100168: PointerLower.L_end
+    100170: PointerLower.R
+    100172: PointerLower.R_end
+    100174: PointerUpper.L
+    100176: PointerUpper.R
+    100178: ThumbLower.L
+    100180: ThumbLower.L_end
+    100182: ThumbLower.R
+    100184: ThumbLower.R_end
+    100186: ThumbUpper.L
+    100188: ThumbUpper.R
+    100190: UpperArm.L
+    100192: UpperArm.R
     400000: _Plane
     400002: Chest
     400004: Chest_Joint
@@ -141,6 +169,34 @@ ModelImporter:
     400132: WristR_UpperFinger2_Joint
     400134: WristR_UpperThumb
     400136: WristR_UpperThumb_Joint
+    400138: Armature
+    400140: Chest 1
+    400142: Hand.L
+    400144: Hand.R
+    400146: LowerArm.L
+    400148: LowerArm.R
+    400150: Neck 1
+    400152: Neck_end
+    400154: PinkyLower.L
+    400156: PinkyLower.L_end
+    400158: PinkyLower.R
+    400160: PinkyLower.R_end
+    400162: PinkyUpper.L
+    400164: PinkyUpper.R
+    400166: PointerLower.L
+    400168: PointerLower.L_end
+    400170: PointerLower.R
+    400172: PointerLower.R_end
+    400174: PointerUpper.L
+    400176: PointerUpper.R
+    400178: ThumbLower.L
+    400180: ThumbLower.L_end
+    400182: ThumbLower.R
+    400184: ThumbLower.R_end
+    400186: ThumbUpper.L
+    400188: ThumbUpper.R
+    400190: UpperArm.L
+    400192: UpperArm.R
     2100000: No Name
     2300000: _Plane
     2300002: Chest
@@ -357,6 +413,7 @@ ModelImporter:
     7400016: UpperArmL|UpperArmRAction
     9500000: //RootNode
     11100000: //RootNode
+    13700000: Chest
     2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
