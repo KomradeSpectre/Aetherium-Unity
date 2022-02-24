@@ -191,7 +191,7 @@ Material:
     - _Magnitude: 0.05
     - _Metallic: 0
     - _Mode: 0
-    - _NormalStrength: 2
+    - _NormalStrength: 1
     - _OcclusionStrength: 1
     - _Offset: 0.1
     - _Offset2: 0.05

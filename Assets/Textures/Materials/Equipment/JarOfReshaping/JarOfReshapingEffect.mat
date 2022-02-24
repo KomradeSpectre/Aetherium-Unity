@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: JarOfReshapingEffect
-  m_Shader: {fileID: 4800000, guid: 2e72d6de6c09d490493a2b3ee9b31e80, type: 3}
+  m_Shader: {fileID: 4800000, guid: 2466d894ac611984987bcccc123ee3da, type: 3}
   m_ShaderKeywords: DISTORTMAIN_ON FRESNEL_EMISSION USE_CLOUDS _EMISSION _NORMALMAP
   m_LightmapFlags: 1
   m_EnableInstancingVariants: 0
@@ -83,6 +83,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _EmissionTex:
+        m_Texture: {fileID: 2800000, guid: 557cc027c74f9e8439dfb86428cf4cde, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _ExtraTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -123,8 +127,16 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Height1:
+        m_Texture: {fileID: 2800000, guid: 557cc027c74f9e8439dfb86428cf4cde, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Height2:
+        m_Texture: {fileID: 2800000, guid: 2bbe87261cdba6b45ba3c07eeff7e5dd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 7470ce5752e8b4f4197d55449e7c3a89, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -141,6 +153,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _NoiseTex:
         m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal:
+        m_Texture: {fileID: 2800000, guid: 5761b1eeb31abfc409d041223f4c7d3b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalTex:
@@ -227,6 +243,7 @@ Material:
     - _Boost: 1
     - _BumpScale: 1
     - _CalcTextureAlphaOn: 0
+    - _ClipOn: 0
     - _CloudOffsetOn: 0
     - _CloudsOn: 1
     - _ColorAdd: 0.514
@@ -259,6 +276,7 @@ Material:
     - _EliteIndex: 0
     - _EmPower: 1
     - _EmissionLM: 0
+    - _EmissionPower: 1.2
     - _EnableCutout: 0
     - _ExternalAlpha: 1
     - _FEON: 1
@@ -292,8 +310,10 @@ Material:
     - _GreenChannelSmoothness: 0
     - _Hard: 30
     - _Height: 0.1
+    - _HeightBias: 0.2
     - _HeightScale: 4
     - _HeightScaleModulated: 0
+    - _HeightStrength: 10
     - _HueScale: 1
     - _HueSpeed: 1
     - _IOR: 2.79
@@ -311,7 +331,7 @@ Material:
     - _OffsetAmount: 0
     - _OffsetScale: 5
     - _OverallCosmicGlow: 0.2
-    - _Parallax: 0.02
+    - _Parallax: 0.1
     - _PrintBias: 0
     - _PrintBoost: 1
     - _PrintDirection: 0
@@ -336,9 +356,9 @@ Material:
     - _SmoothnessTextureChannel: 0
     - _SpaceDistortion: 4
     - _Specular: 0.653
-    - _SpecularExponent: 1
+    - _SpecularExponent: 0.1
     - _SpecularHighlights: 1
-    - _SpecularStrength: 0
+    - _SpecularStrength: 1
     - _Speed: 0.5
     - _SpeedDistortX: 0.2
     - _SpeedDistortY: 0.2
@@ -378,7 +398,7 @@ Material:
     - _AccretionDiskColor: {r: 1, g: 1, b: 1, a: 1}
     - _Background: {r: 0, g: 0, b: 0, a: 1}
     - _BlackHoleColor: {r: 0, g: 0, b: 0, a: 1}
-    - _Color: {r: 0.3443396, g: 0.7652575, b: 1, a: 1}
+    - _Color: {r: 0.09019608, g: 0.24313726, b: 0.5803922, a: 1}
     - _Color2: {r: 0.6, g: 0.4, b: 0.1, a: 1}
     - _Color3: {r: 1, g: 1, b: 0, a: 1}
     - _ColorA: {r: 1, g: 1, b: 1, a: 1}
@@ -395,6 +415,7 @@ Material:
     - _FresnelColor1: {r: 0.5490196, g: 0.3294118, b: 1, a: 0}
     - _FresnelColor2: {r: 0.1333333, g: 0.07843138, b: 0.5529412, a: 0}
     - _RimColor: {r: 1, g: 1, b: 1, a: 1}
+    - _ScrollSpeed: {r: 4, g: 4, b: 4, a: 4}
     - _TextureColor: {r: 1, g: 1, b: 1, a: 1}
     - _Tint: {r: 1, g: 1, b: 1, a: 1}
     - _TintA: {r: 1, g: 1, b: 1, a: 1}

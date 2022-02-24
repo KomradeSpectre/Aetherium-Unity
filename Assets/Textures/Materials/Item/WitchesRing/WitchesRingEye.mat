@@ -8,12 +8,12 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: WitchesRingEye
-  m_Shader: {fileID: 4800000, guid: 1394a26ad5d37444d8710f62dc58740b, type: 3}
-  m_ShaderKeywords: DISTORTMAIN_ON ETC1_EXTERNAL_ALPHA
+  m_Shader: {fileID: 4800000, guid: bcca0f052f8e2da4fa48612d6154b1c9, type: 3}
+  m_ShaderKeywords: DISTORTMAIN_ON ETC1_EXTERNAL_ALPHA USE_CLOUDS
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 1
-  m_CustomRenderQueue: 3000
+  m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
@@ -22,6 +22,14 @@ Material:
     - _BumpMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Cloud1Tex:
+        m_Texture: {fileID: 2800000, guid: fb5b8fb0f6d18fe4483937055ee01e05, type: 3}
+        m_Scale: {x: 0, y: 4}
+        m_Offset: {x: 0, y: 0}
+    - _Cloud2Tex:
+        m_Texture: {fileID: 2800000, guid: a7f6301e14c984e48bf00c77fa6708ce, type: 3}
+        m_Scale: {x: 4, y: 2}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
         m_Texture: {fileID: 0}
@@ -43,15 +51,31 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _EmissionTex:
+        m_Texture: {fileID: 2800000, guid: beb3dc5263ed7304d998fc0ed98e0c81, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _ExtraTex:
         m_Texture: {fileID: 2800000, guid: 677ad0aa5e53ee6468c1033cdb3de788, type: 3}
         m_Scale: {x: 0, y: 0}
         m_Offset: {x: 0, y: 0}
+    - _Height1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Height2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: beb3dc5263ed7304d998fc0ed98e0c81, type: 3}
-        m_Scale: {x: 2, y: 1}
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 4, y: 4}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -63,33 +87,73 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _RemapTex:
+        m_Texture: {fileID: 2800000, guid: 089668d3499a9c24fb89206901cc680c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Floats:
     - DISTORTMAIN: 1
+    - _AlphaBias: 0
+    - _AlphaBoost: 0.5
+    - _Boost: 5
     - _BumpScale: 1
+    - _CalcTextureAlphaOn: 0
+    - _ClipOn: 0
+    - _CloudOffsetOn: 0
+    - _CloudsOn: 1
+    - _Cull: 2
     - _Cutoff: 0.5
+    - _DepthOffset: 0
     - _DetailNormalMapScale: 1
-    - _DstBlend: 0
+    - _DisableRemapOn: 0
+    - _DistortionStrength: 0.1
+    - _DstBlend: 1
+    - _EmissionPower: 1
+    - _ExternalAlpha: 1
+    - _Fade: 1
+    - _FadeCloseDistance: 0.5
+    - _FadeCloseOn: 0
+    - _FresnelOn: 0
+    - _FresnelPower: 0
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
+    - _HeightBias: 0
+    - _HeightStrength: 1
+    - _InternalSimpleBlendMode: 0
+    - _InvFade: 0
     - _MainScroll: 0.5
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
-    - _Offset: 0.29
+    - _Offset: 0.637
+    - _OffsetAmount: 0
     - _Parallax: 0.02
+    - _RampInfo: 0
+    - _SkyboxOnly: 0
+    - _Smoothness: 0
     - _SmoothnessTextureChannel: 0
+    - _SpecularExponent: 0.1
     - _SpecularHighlights: 1
-    - _SrcBlend: 1
+    - _SpecularStrength: 0
+    - _SrcBlend: 3
     - _UVSec: 0
+    - _UseUV1On: 0
+    - _VertexAlphaOn: 0
+    - _VertexColorOn: 0
+    - _VertexOffsetOn: 0
     - _XDistort: 0
     - _XSpeed: 0.27
     - _YDistort: 0
     - _YSpeed: 0.1
+    - _ZTest: 4
     - _ZWrite: 1
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _ColorA: {r: 0, g: 1, b: 0.2624011, a: 1}
     - _ColorB: {r: 0, g: 1, b: 0.039124012, a: 1}
+    - _CutoffScroll: {r: -2, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _ScrollSpeed: {r: 0, g: 0, b: 0, a: 0}
     - _Tint: {r: 0, g: 1, b: 0.047619104, a: 1}
+    - _TintColor: {r: 0, g: 1, b: 0.039546248, a: 1}

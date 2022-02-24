@@ -147,7 +147,7 @@ Material:
     - _EliteBrightnessMax: 1
     - _EliteBrightnessMin: 0
     - _EliteIndex: 0
-    - _EmPower: 2
+    - _EmPower: 5
     - _EnableCutout: 0
     - _ExternalAlpha: 1
     - _FEON: 0
@@ -210,7 +210,7 @@ Material:
     m_Colors:
     - _Color: {r: 0.5849056, g: 0.5849056, b: 0.5849056, a: 1}
     - _CutoffScroll: {r: 0, g: 0, b: 0, a: 10}
-    - _EmColor: {r: 0.224, g: 0.224, b: 0.224, a: 1}
+    - _EmColor: {r: 1, g: 0, b: 0.2509804, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _FlashColor: {r: 0, g: 0, b: 0, a: 1}
     - _TintColor: {r: 1, g: 0, b: 0.785, a: 1}
