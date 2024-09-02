@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: KoaleskMask
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Body
+    m_Weight: 1
+  - m_Path: KoaleskArmature
+    m_Weight: 1
+  - m_Path: KoaleskArmature/Hips
+    m_Weight: 1
+  - m_Path: KoaleskArmature/Hips/Spine
+    m_Weight: 1
+  - m_Path: KoaleskArmature/Hips/Spine/Chest
+    m_Weight: 1
+  - m_Path: KoaleskArmature/Hips/Spine/Chest/UpperChest
+    m_Weight: 1
+  - m_Path: KoaleskArmature/Hips/Spine/Chest/UpperChest/Neck
+    m_Weight: 1
+  - m_Path: KoaleskArmature/Hips/Spine/Chest/UpperChest/Neck/Head
+    m_Weight: 1
+  - m_Path: KoaleskArmature/Hips/Spine/Chest/UpperChest/shoulder.L
+    m_Weight: 1
+  - m_Path: KoaleskArmature/Hips/Spine/Chest/UpperChest/shoulder.L/UpperArm.L
+    m_Weight: 1
+  - m_Path: KoaleskArmature/Hips/Spine/Chest/UpperChest/shoulder.L/UpperArm.L/LowerArm.L
+    m_Weight: 1
+  - m_Path: KoaleskArmature/Hips/Spine/Chest/UpperChest/shoulder.L/UpperArm.L/LowerArm.L/Hand.L
+    m_Weight: 1
+  - m_Path: KoaleskArmature/Hips/Spine/Chest/UpperChest/shoulder.L/UpperArm.L/LowerArm.L/Hand.L/ShieldPart
+    m_Weight: 1
+  - m_Path: KoaleskArmature/Hips/Spine/Chest/UpperChest/shoulder.L/UpperArm.L/LowerArm.L/Hand.L/ShieldPart/ShieldPart.001
+    m_Weight: 1
+  - m_Path: KoaleskArmature/Hips/Spine/Chest/UpperChest/shoulder.L/UpperArm.L/LowerArm.L/Hand.L/ShieldPart/ShieldPart.002
+    m_Weight: 1
+  - m_Path: KoaleskArmature/Hips/Spine/Chest/UpperChest/shoulder.L/UpperArm.L/LowerArm.L/Hand.L/ShieldPart/ShieldPart.003
+    m_Weight: 1
+  - m_Path: KoaleskArmature/Hips/Spine/Chest/UpperChest/shoulder.L/UpperArm.L/LowerArm.L/Hand.L/ShieldPart/Spear
+    m_Weight: 1
+  - m_Path: KoaleskArmature/Hips/Spine/Chest/UpperChest/shoulder.L/UpperArm.L/LowerArm.L/Hand.L/ShieldPart/Spear.001
+    m_Weight: 1
+  - m_Path: KoaleskArmature/Hips/Spine/Chest/UpperChest/shoulder.L/UpperArm.L/LowerArm.L/Hand.L/ShieldPart/Spear.002
+    m_Weight: 1
+  - m_Path: KoaleskArmature/Hips/Spine/Chest/UpperChest/shoulder.L/UpperArm.L/LowerArm.L/Hand.L/ShieldPart/Spear.003
+    m_Weight: 1
+  - m_Path: KoaleskArmature/Hips/Spine/Chest/UpperChest/shoulder.R
+    m_Weight: 1
+  - m_Path: KoaleskArmature/Hips/Spine/Chest/UpperChest/shoulder.R/UpperArm.R
+    m_Weight: 1
+  - m_Path: KoaleskArmature/Hips/Spine/Chest/UpperChest/shoulder.R/UpperArm.R/LowerArm.R
+    m_Weight: 1
+  - m_Path: KoaleskArmature/Hips/Spine/Chest/UpperChest/shoulder.R/UpperArm.R/LowerArm.R/Hand.R
+    m_Weight: 1
+  - m_Path: KoaleskArmature/Hips/Spine/Chest/UpperChest/shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Finger.001
+    m_Weight: 1
+  - m_Path: KoaleskArmature/Hips/Spine/Chest/UpperChest/shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Finger.001/Finger.002
+    m_Weight: 1
+  - m_Path: KoaleskArmature/Hips/Spine/Chest/UpperChest/shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Finger.001/Finger.002/Finger.003
+    m_Weight: 1
+  - m_Path: KoaleskArmature/Hips/Spine/Chest/UpperChest/shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Finger.004
+    m_Weight: 1
+  - m_Path: KoaleskArmature/Hips/Spine/Chest/UpperChest/shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Finger.004/Finger.005
+    m_Weight: 1
+  - m_Path: KoaleskArmature/Hips/Spine/Chest/UpperChest/shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Finger.004/Finger.005/Finger.006
+    m_Weight: 1
+  - m_Path: KoaleskArmature/Hips/Spine/Chest/UpperChest/shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Finger.007
+    m_Weight: 1
+  - m_Path: KoaleskArmature/Hips/Spine/Chest/UpperChest/shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Finger.007/Finger.008
+    m_Weight: 1
+  - m_Path: KoaleskArmature/Hips/Spine/Chest/UpperChest/shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Finger.007/Finger.008/Finger.009
+    m_Weight: 1
+  - m_Path: KoaleskArmature/Hips/Spine/Chest/UpperChest/shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Finger.010
+    m_Weight: 1
+  - m_Path: KoaleskArmature/Hips/Spine/Chest/UpperChest/shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Finger.010/Finger.011
+    m_Weight: 1
+  - m_Path: KoaleskArmature/Hips/Spine/Chest/UpperChest/shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Finger.010/Finger.011/Finger.012
+    m_Weight: 1
+  - m_Path: KoaleskArmature/Hips/Spine/Chest/UpperChest/shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Thumb
+    m_Weight: 1
+  - m_Path: KoaleskArmature/Hips/Spine/Chest/UpperChest/shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Thumb/Thumb.001
+    m_Weight: 1
+  - m_Path: KoaleskArmature/Hips/Spine/Chest/UpperChest/shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Thumb/Thumb.001/Thumb.002
+    m_Weight: 1
+  - m_Path: KoaleskArmature/Hips/Spine/Chest/UpperChest/shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Weapon
+    m_Weight: 1
+  - m_Path: KoaleskArmature/Hips/Spine/Chest/UpperChest/shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Weapon/WeaponHead
+    m_Weight: 1
+  - m_Path: KoaleskArmature/Hips/Spine/Chest/UpperChest/shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Weapon/WeaponPommel
+    m_Weight: 1
+  - m_Path: KoaleskArmature/Hips/UpperLeg.L
+    m_Weight: 1
+  - m_Path: KoaleskArmature/Hips/UpperLeg.L/LowerLeg.L
+    m_Weight: 1
+  - m_Path: KoaleskArmature/Hips/UpperLeg.L/LowerLeg.L/Foot.L
+    m_Weight: 1
+  - m_Path: KoaleskArmature/Hips/UpperLeg.L/LowerLeg.L/Foot.L/Toes.L
+    m_Weight: 1
+  - m_Path: KoaleskArmature/Hips/UpperLeg.R
+    m_Weight: 1
+  - m_Path: KoaleskArmature/Hips/UpperLeg.R/LowerLeg.R
+    m_Weight: 1
+  - m_Path: KoaleskArmature/Hips/UpperLeg.R/LowerLeg.R/Foot.R
+    m_Weight: 1
+  - m_Path: KoaleskArmature/Hips/UpperLeg.R/LowerLeg.R/Foot.R/Toes.R
+    m_Weight: 1
+  - m_Path: MetalParts
+    m_Weight: 1
